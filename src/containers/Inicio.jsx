@@ -9,7 +9,7 @@ const Inicio = () => {
 			</h1>
 
 			<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10">
-				<div className="space-y-5">
+				<div className="space-y-5 lg:space-y-0">
 					<h2 className="text-xl">Representantes oficiales de:</h2>
 					<img
 						src={emerson}
@@ -18,7 +18,7 @@ const Inicio = () => {
 					/>
 				</div>
 
-				<div className="space-y-5">
+				<div className="space-y-5 lg:space-y-">
 					<h2 className="text-xl">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
