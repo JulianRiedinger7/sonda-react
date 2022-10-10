@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../../public/logo.png';
+import logo from '../assets/statics/logo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';

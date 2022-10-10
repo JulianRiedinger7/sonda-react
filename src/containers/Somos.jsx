@@ -1,7 +1,7 @@
-import business from '../../public/business.svg';
-import tasks from '../../public/tasks.svg';
-import collaboration from '../../public/collaboration.svg';
-import decisions from '../../public/decisions.svg';
+import business from '../assets/statics/business.svg';
+import tasks from '../assets/statics/tasks.svg';
+import collaboration from '../assets/statics/collaboration.svg';
+import decisions from '../assets/statics/decisions.svg';
 
 const Somos = () => {
 	return (
@@ -25,7 +25,7 @@ const Somos = () => {
 			</div>
 
 			<div className="flex flex-wrap items-center gap-14">
-				<p className="text-white font-semibold leading-7 text-lg w-4/5 lg:w-2/5 mx-auto text-center bg-gradient-to-r from-cyan-500 to-cyan-900 p-10 rounded-xl order-2">
+				<p className="text-white font-semibold leading-7 text-lg w-4/5 lg:w-2/5 mx-auto text-center bg-gradient-to-r from-cyan-500 to-cyan-900 p-10 rounded-xl lg:order-2">
 					Desde su fundación Sonda ha mostrado un crecimiento sostenible tanto
 					en cuotas de mercado como en estructura, en el 2014 logramos ser
 					nombrados representante de Emerson Argentina para la prestación de
@@ -37,7 +37,7 @@ const Somos = () => {
 				<img
 					src={business}
 					alt="business"
-					className="w-96 aspect-square mx-auto order-1"
+					className="w-96 aspect-square mx-auto lg:order-1"
 				/>
 			</div>
 
@@ -55,7 +55,7 @@ const Somos = () => {
 			</div>
 
 			<div className="flex flex-wrap items-center gap-14">
-				<p className="text-white font-semibold leading-7 text-lg w-4/5 lg:w-2/5 mx-auto text-center bg-gradient-to-r from-cyan-500 to-cyan-900 p-10 rounded-xl order-2">
+				<p className="text-white font-semibold leading-7 text-lg w-4/5 lg:w-2/5 mx-auto text-center bg-gradient-to-r from-cyan-500 to-cyan-900 p-10 rounded-xl lg:order-2">
 					En el año 2021 nos propusimos dos grandes objetivos para el 2026:
 					primero, encontrar una nueva rama de negocios que sea compatible con
 					el mercado que nosotros conocemos y, segundo ampliar nuestra oferta de
@@ -68,7 +68,7 @@ const Somos = () => {
 				<img
 					src={tasks}
 					alt="tasks"
-					className="w-96 aspect-square mx-auto order-1"
+					className="w-96 aspect-square mx-auto lg:order-1"
 				/>
 			</div>
 		</main>

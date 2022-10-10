@@ -1,5 +1,5 @@
-import fitok from '../../public/fitok.png';
-import emerson from '../../public/emerson.png';
+import fitok from '../assets/statics/fitok.png';
+import emerson from '../assets/statics/emerson.png';
 
 const Inicio = () => {
 	return (
@@ -19,7 +19,7 @@ const Inicio = () => {
 				</div>
 
 				<div className="space-y-5 lg:space-y-">
-					<h2 className="text-xl">
+					<h2 className="text-xl text-center">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
 					<img
