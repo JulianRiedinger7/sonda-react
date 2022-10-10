@@ -62,7 +62,7 @@ const Header = () => {
 				</nav>
 			</header>
 			{menuOpened && (
-				<ul className="absolute right-0 min-h-[calc(100vh-160px)] flex flex-col space-y-2 shadow-xl p-10 text-black bg-slate-300 bg-opacity-90">
+				<ul className="absolute z-10 right-0 min-h-full flex flex-col space-y-5 shadow-xl p-10 text-black bg-slate-300 bg-opacity-90">
 					{sections.map((section) => (
 						<NavLink
 							key={section.id}
