@@ -1,7 +1,7 @@
-import business from '../assets/statics/business.svg';
-import tasks from '../assets/statics/tasks.svg';
-import collaboration from '../assets/statics/collaboration.svg';
-import decisions from '../assets/statics/decisions.svg';
+import business from '/business.svg';
+import tasks from '/tasks.svg';
+import collaboration from '/collaboration.svg';
+import decisions from '/decisions.svg';
 
 const Somos = () => {
 	return (

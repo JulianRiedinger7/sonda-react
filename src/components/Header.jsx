@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/statics/logo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';
@@ -25,7 +24,7 @@ const Header = () => {
 				<nav className="flex container mx-auto  items-center justify-between flex-1">
 					<NavLink to="/">
 						<img
-							src={logo}
+							src="/logo.png"
 							className="w-32 object-contain"
 							alt="Sonda SRL Logo"
 						/>

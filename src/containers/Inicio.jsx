@@ -1,6 +1,3 @@
-import fitok from '../assets/statics/fitok.png';
-import emerson from '../assets/statics/emerson.png';
-
 const Inicio = () => {
 	return (
 		<main className="min-h-[calc(100vh-160px)] bg-hero-pattern bg-no-repeat bg-cover bg-center">
@@ -12,7 +9,7 @@ const Inicio = () => {
 				<div className="space-y-5 lg:space-y-0">
 					<h2 className="text-xl">Representantes oficiales de:</h2>
 					<img
-						src={emerson}
+						src="/emerson.png"
 						alt="Emerson"
 						className="w-64 aspect-square lg:w-72 mx-auto object-contain"
 					/>
@@ -23,7 +20,7 @@ const Inicio = () => {
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
 					<img
-						src={fitok}
+						src="/fitok.png"
 						alt="Fitok"
 						className="w-64 aspect-square lg:w-72 mx-auto object-contain"
 					/>
