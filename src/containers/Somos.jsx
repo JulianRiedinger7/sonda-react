@@ -1,8 +1,3 @@
-import business from '/business.svg';
-import tasks from '/tasks.svg';
-import collaboration from '/collaboration.svg';
-import decisions from '/decisions.svg';
-
 const Somos = () => {
 	return (
 		<main className="min-h-[calc(100vh-160px)] bg-hero-pattern bg-no-repeat bg-cover bg-center">
@@ -18,7 +13,7 @@ const Somos = () => {
 					nuestros clientes.
 				</p>
 				<img
-					src={decisions}
+					src="/decisions.svg"
 					alt="decisions"
 					className="w-96 aspect-square mx-auto"
 				/>
@@ -35,7 +30,7 @@ const Somos = () => {
 					a la altura de las circunstancias.
 				</p>
 				<img
-					src={business}
+					src="/business.svg"
 					alt="business"
 					className="w-96 aspect-square mx-auto lg:order-1"
 				/>
@@ -48,7 +43,7 @@ const Somos = () => {
 					Tierra del Fuego y Neuquén, Pan American Energy, CGC, Metrogas, e YPF.
 				</p>
 				<img
-					src={collaboration}
+					src="/collaboration.svg"
 					alt="collaboration"
 					className="w-96 aspect-square mx-auto"
 				/>
@@ -66,7 +61,7 @@ const Somos = () => {
 					nombrados por FITOK como distribuidores oficiales para el 2023.
 				</p>
 				<img
-					src={tasks}
+					src="/tasks.svg"
 					alt="tasks"
 					className="w-96 aspect-square mx-auto lg:order-1"
 				/>
