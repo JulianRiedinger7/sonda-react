@@ -17,7 +17,7 @@ const DetalleProducto = () => {
 		<section className="min-h-[calc(100vh-160px)] container mx-auto px-5 lg:px-0 py-5">
 			<BsFillArrowLeftCircleFill
 				size={64}
-				className="cursor-pointer"
+				className="cursor-pointer text-cyan-900"
 				onClick={() => navigate(-1)}
 			/>
 			<div className="flex flex-col justify-center items-center space-y-6">

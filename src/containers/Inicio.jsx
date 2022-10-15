@@ -1,12 +1,12 @@
 const Inicio = () => {
 	return (
 		<main className="min-h-[calc(100vh-160px)] bg-hero-pattern bg-no-repeat bg-cover bg-center">
-			<h1 className="text-center text-7xl lg:text-8xl pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-900">
+			<h1 className="text-center text-7xl lg:text-8xl pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300">
 				Sonda SRL
 			</h1>
 
-			<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10">
-				<div className="space-y-5 lg:space-y-0">
+			<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10 lg:space-y-0">
+				<div className="space-y-5 lg:space-y-0 lg:pt-10">
 					<h2 className="text-xl">Representantes oficiales de:</h2>
 					<img
 						src="/emerson.png"
@@ -15,7 +15,7 @@ const Inicio = () => {
 					/>
 				</div>
 
-				<div className="space-y-5 lg:space-y-">
+				<div className="space-y-5 lg:space-y-0 lg:pt-10">
 					<h2 className="text-xl text-center">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
