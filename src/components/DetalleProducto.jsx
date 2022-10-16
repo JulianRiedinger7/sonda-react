@@ -27,11 +27,11 @@ const DetalleProducto = () => {
 					alt={nombre}
 					className="w-96 aspect-square object-contain"
 				/>
-				<p className="leading-7 font-semibold text-center w-3/5">
+				<p className="leading-7 font-semibold text-center lg:w-3/5">
 					{descripcion}
 				</p>
 			</div>
-			<div className="self-start">
+			<div className="self-start mt-5">
 				<h3 className="text-2xl font-semibold pb-5">Hoja de Datos:</h3>
 				<p className="font-semibold">
 					Haz click{' '}
