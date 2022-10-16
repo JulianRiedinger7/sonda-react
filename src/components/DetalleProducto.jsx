@@ -14,7 +14,7 @@ const DetalleProducto = () => {
 	const { nombre, descripcion, img, catalogo } = itemToShow;
 
 	return (
-		<section className="min-h-[calc(100vh-160px)] container mx-auto px-5 lg:px-0 py-5">
+		<section className="min-h-[calc(100vh-80px)] container mx-auto px-5 lg:px-0 py-3 pt-24">
 			<BsFillArrowLeftCircleFill
 				size={64}
 				className="cursor-pointer text-cyan-900 "

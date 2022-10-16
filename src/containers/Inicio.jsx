@@ -1,6 +1,6 @@
 const Inicio = () => {
 	return (
-		<main className="min-h-[calc(100vh-160px)] bg-hero-pattern bg-no-repeat bg-cover bg-center">
+		<main className="min-h-[calc(100vh-80px)] bg-hero-pattern bg-no-repeat bg-cover bg-center pt-24">
 			<h1 className="text-center text-7xl lg:text-8xl pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300">
 				Sonda SRL
 			</h1>

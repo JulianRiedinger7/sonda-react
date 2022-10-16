@@ -20,7 +20,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="p-2 h-20 bg-slate-700 flex items-center justify-between text-white">
+			<header className="p-2 fixed w-full h-20 bg-slate-700 flex items-center justify-between text-white">
 				<nav className="flex container mx-auto  items-center justify-between flex-1">
 					<NavLink to="/">
 						<img
@@ -61,7 +61,7 @@ const Header = () => {
 				</nav>
 			</header>
 			{menuOpened && (
-				<ul className="absolute z-10 right-0 min-h-full flex flex-col space-y-5 shadow-xl p-10 text-black bg-slate-300 bg-opacity-90">
+				<ul className="fixed z-10 top-20 right-0 min-h-full flex flex-col space-y-5 shadow-xl p-10 text-black bg-slate-300 bg-opacity-90">
 					{sections.map((section) => (
 						<NavLink
 							key={section.id}
