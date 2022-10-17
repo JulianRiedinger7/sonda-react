@@ -1,13 +1,15 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import productos from '../data/productos';
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
+import { useProductsContext } from '../context/ProductsContext';
 
 const DetalleProducto = () => {
 	const { itemId } = useParams();
 	const navigate = useNavigate();
 
-	const itemToShow = productos.find(
+	const { productosEmerson } = useProductsContext();
+
+	const itemToShow = productosEmerson.find(
 		(producto) => producto.id === parseInt(itemId)
 	);
 

@@ -6,8 +6,10 @@ const Inicio = () => {
 			</h1>
 
 			<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10 lg:space-y-0">
-				<div className="space-y-5 lg:space-y-0 lg:pt-10">
-					<h2 className="text-xl">Representantes oficiales de:</h2>
+				<div className="space-y-5 lg:space-y-0 lg:pt-10 text-slate-100">
+					<h2 className="text-xl lg:text-2xl font-bold ">
+						Representantes oficiales de:
+					</h2>
 					<img
 						src="/emerson.png"
 						alt="Emerson"
@@ -16,7 +18,7 @@ const Inicio = () => {
 				</div>
 
 				<div className="space-y-5 lg:space-y-0 lg:pt-10">
-					<h2 className="text-xl text-center">
+					<h2 className="text-xl text-center lg:text-2xl font-bold text-slate-100">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
 					<img

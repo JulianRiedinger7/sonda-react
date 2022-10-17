@@ -1,31 +1,4 @@
-const cromatografos = [
-	{
-		nombre: 'C6+',
-		descripcion:
-			'Aplicaciones Ideal para aplicaciones de C6+, incluidas: Transferencia de custodia de gas natural, medición de gas de producción, generación de energía, control del gas combustible ',
-		img: '../images/c6.png',
-		catalogo:
-			'https://www.emerson.com/documents/automation/brochure-rosemount-gas-chromatograph-solutions-for-natural-gas-transmission-applications-en-72744.pdf',
-	},
-	{
-		nombre: 'C9+',
-		descripcion:
-			'Aplicaciones Ideal para C9+ y aplicaciones personalizadas, incluidas: Refinerías, Petroquímica, Control del gas combustible, Procesamiento de gas, Generación de energía, Monitoreo ambiental. El 700XA es un cromatógrafo de gases con horno sin aire, completamente funcional que le permite utilizar las aplicaciones de análisis extendido en una carcasa resistente montable en campo. La aplicación del 700XA C9+ incluye los cálculos del HCDP que pueden determinar este punto en cuatro presiones diferentes y el cricondentherm (el HCDP más alto a cualquier presión).',
-		img: '../images/c9.png',
-		catalogo:
-			'https://www.emerson.com/documents/automation/brochure-rosemount-gas-chromatograph-solutions-for-natural-gas-transmission-applications-en-72744.pdf ',
-	},
-	{
-		nombre: 'C6+ H2S',
-		descripcion:
-			'Calidad del gas: además de la medición de energía estándar, es posible que, por exigencias contractuales o de salud y seguridad, deba brindar mediciones adicionales. Estas mediciones incluirán los componentes sulfurosos del gas del proceso. En general, los componentes sulfurosos de interés se definen como H2 S, COS (con frecuencia se informan en forma conjunta como H2 S) y el total de todos los componentes sulfurosos que se miden en forma individual o colectiva como el sulfuro total. Emerson puede brindan todas estas mediciones en la plataforma XA, por lo que se reduce la complejidad del sistema de medición de la calidad del gas. ',
-		img: '../images/c6h2s.png',
-		catalogo:
-			'https://www.emerson.com/documents/automation/brochure-rosemount-gas-chromatograph-solutions-for-natural-gas-transmission-applications-en-72744.pdf',
-	},
-];
-
-export default [
+export const emerson = [
 	{
 		nombre: 'Rosemount 370XA',
 		descripcion:

@@ -1,6 +1,6 @@
 const Somos = () => {
 	return (
-		<main className="min-h-[calc(100vh-80px)] bg-hero-pattern bg-no-repeat bg-cover bg-center pt-24">
+		<main className="min-h-[calc(100vh-80px)] bg-gray-300 pt-24">
 			<h1 className="text-center text-6xl text-white py-10 text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
 				Quienes Somos
 			</h1>
