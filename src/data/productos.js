@@ -1,4 +1,4 @@
-export const emerson = [
+export default [
 	{
 		nombre: 'Rosemount 370XA',
 		descripcion:
@@ -7,6 +7,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-rosemount-370xa-es-8533886.pdf',
 		categoria: 'Cromatografos',
+		prov: 'emerson',
 		id: 1,
 	},
 	{
@@ -17,6 +18,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-rosemount-770xa-es-7496044.pdf',
 		categoria: 'Cromatografos',
+		prov: 'emerson',
 		id: 2,
 	},
 	{
@@ -27,6 +29,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/product-data-sheet-model-500-process-gas-chromatograph-rosemount-en-105310.pdf',
 		categoria: 'Cromatografos',
+		prov: 'emerson',
 		id: 3,
 	},
 	{
@@ -37,6 +40,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/product-data-sheet-1500xa-process-gas-chromatograph-rosemount-en-70530.pdf',
 		categoria: 'Cromatografos',
+		prov: 'emerson',
 		id: 4,
 	},
 	{
@@ -47,6 +51,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/folleto-x-stream-enhanced-analizador-de-gases-de-proceso-rosemount-es-es-71078.pdf			',
 		categoria: 'Analizadores de gases de proceso',
+		prov: 'emerson',
 		id: 5,
 	},
 	{
@@ -57,6 +62,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-fb1100-flow-computer-spanish-ras-es-4025670.pdf',
 		categoria: 'Computadores de caudal de gas natural',
+		prov: 'emerson',
 		id: 6,
 	},
 	{
@@ -67,6 +73,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/fb2100-flow-computer-spanish-es-4025666.pdf',
 		categoria: 'Computadores de caudal de gas natural',
+		prov: 'emerson',
 		id: 7,
 	},
 	{
@@ -77,6 +84,7 @@ export const emerson = [
 		catalogo:
 			'https://www.emerson.com/documents/automation/fb3000-rtu-for-water-wastewater-industries-en-7562128.pdf',
 		categoria: 'Computadores de caudal de gas natural',
+		prov: 'emerson',
 		id: 8,
 	},
 ];

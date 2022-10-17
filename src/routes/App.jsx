@@ -7,8 +7,7 @@ import ScrollToTop from '../components/ScrollToTop';
 import Inicio from '../containers/Inicio';
 import Productos from '../containers/Productos';
 import Somos from '../containers/Somos';
-import ProductosEmerson from '../components/ProductosEmerson';
-import ProductosFitok from '../components/ProductosFitok';
+import ProductosProveedor from '../components/ProductosProveedor';
 
 function App() {
 	return (
@@ -19,8 +18,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Inicio />} />
 					<Route path="/productos" element={<Productos />} />
-					<Route path="/productos/emerson" element={<ProductosEmerson />} />
-					<Route path="/productos/fitok" element={<ProductosFitok />} />
+					<Route path="/productos/:prov" element={<ProductosProveedor />} />
 					<Route path="/detalle/:itemId" element={<DetalleProducto />} />
 					<Route path="/somos" element={<Somos />} />
 				</Routes>

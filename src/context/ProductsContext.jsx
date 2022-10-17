@@ -1,16 +1,16 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { emerson } from '../data/productos';
+import productos from '../data/productos';
 
 const ProductsContext = createContext();
 
 export const ProductsContextProvider = ({ children }) => {
-	const [productosEmerson, setProductosEmerson] = useState([]);
+	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
-		setProductosEmerson(emerson);
+		setProducts(productos);
 	}, []);
 
-	const data = { productosEmerson, setProductosEmerson };
+	const data = { products, setProducts };
 
 	return (
 		<ProductsContext.Provider value={data}>{children}</ProductsContext.Provider>
