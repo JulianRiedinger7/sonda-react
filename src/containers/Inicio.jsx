@@ -1,13 +1,13 @@
 const Inicio = () => {
 	return (
-		<main className="min-h-[calc(100vh-80px)] bg-hero-pattern bg-no-repeat bg-cover bg-center pt-24">
-			<h1 className="text-center text-7xl lg:text-8xl pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300">
+		<main className="min-h-[calc(100vh-80px)] bg-hero-pattern bg-no-repeat bg-cover bg-center hero pt-24">
+			<h1 className="text-center text-7xl lg:text-8xl pt-20 font-bold sonda">
 				Sonda SRL
 			</h1>
 
 			<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10 lg:space-y-0">
-				<div className="space-y-5 lg:space-y-0 lg:pt-10 text-slate-100">
-					<h2 className="text-xl lg:text-2xl font-bold ">
+				<div className="space-y-5 lg:space-y-0 lg:pt-10">
+					<h2 className="text-xl lg:text-2xl font-bold sponsors">
 						Representantes oficiales de:
 					</h2>
 					<img
@@ -18,7 +18,7 @@ const Inicio = () => {
 				</div>
 
 				<div className="space-y-5 lg:space-y-0 lg:pt-10">
-					<h2 className="text-xl text-center lg:text-2xl font-bold text-slate-100">
+					<h2 className="text-xl text-center lg:text-2xl font-bold  sponsors">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
 					<img

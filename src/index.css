@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sonda{
+  background: rgb(224,224,224);
+background: linear-gradient(90deg, rgba(224,224,224,1) 0%, rgba(112,135,184,1) 0%, rgba(4,69,105,1) 62%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke: .5px #202020;
+}
+
+
+.sponsors{
+  color: #202020;
+  text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}

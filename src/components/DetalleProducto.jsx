@@ -7,9 +7,9 @@ const DetalleProducto = () => {
 	const { itemId } = useParams();
 	const navigate = useNavigate();
 
-	const { productosEmerson } = useProductsContext();
+	const { products } = useProductsContext();
 
-	const itemToShow = productosEmerson.find(
+	const itemToShow = products.find(
 		(producto) => producto.id === parseInt(itemId)
 	);
 

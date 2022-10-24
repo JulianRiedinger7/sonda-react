@@ -87,4 +87,37 @@ export default [
 		prov: 'emerson',
 		id: 8,
 	},
+	{
+		nombre: 'Detectores de gases toxicos',
+		descripcion:
+			'Una de las metas más importantes de la Industria es evitar incidentes y accidentes laborales, además de cuidar el medio ambiente. Lo principal es identificar el riesgo y reducirlo. En industrias donde se trabaja con productos que puedan generar gases tóxicos o asfixiantes  para las personas, como por ejemplo el Monóxido de Carbono, Sulfuro de Hidrógeno, Amoníaco o deficiencia de Oxígeno, es imprescindible el uso de detectores de estos compuestos que generen una alarma temprana para alertar al personal. Rosemount ha desarrollado equipos de extrema confiabilidad para estos fines, de montaje en campo con diversos tipos de comunicaciones, incluyendo el WIRELESS HART, modelo 928, cuya gran ventaja es que puede instalarse en lugares donde se hace difícil realizar el tendido eléctrico. Los equipos wireless incluyen su propio módulo de alimentación. En zonas fronterizas de planta, donde los espacios son abiertos, Rosemount presenta un modelo de canal abierto, el 936, cuya capacidad de barrido es mayor que la de los detectores tradicionales. ',
+		img: '/gases-toxicos.png',
+		catalogo:
+			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-monitor-inal%C3%A1mbrico-de-gas-rosemount-928-es-es-6521974.pdf',
+		categoria: 'Detectores de gases y de llama',
+		prov: 'emerson',
+		id: 9,
+	},
+	{
+		nombre: 'Detectores de mezcla explosiva',
+		descripcion:
+			'En industrias donde se trabaja con combustibles, es fundamental el monitoreo continuo de la atmósfera para verificar que no alcance el límite inferior de explosividad o LEL (Low Explosive Limit). El tipo de sensores a utilizar varía de acuerdo a la aplicación, pudiendo ser de tipo catalíticos, Infrarrojos, o acústicos para detección de fugas en gasoductos a alta presión, modelo INCUS. El detector de gases combustibles de ruta abierta Rosemount 935 proporciona una monitorización continua de gases de hidrocarburo, incluso en entornos exigentes donde el polvo, la niebla, la lluvia, la nieve o la vibración pueden ocasionar oscurecimiento en grandes cantidades. Este dispositivo utiliza tecnología infrarroja y tiene una detección de largo alcance de hasta 660 ft (200 m). El Rosemount 935 cuenta con aprobaciones internacionales que incluyen ATEX, IECEx, FM/FMC, INMETRO, TR CU y SIL 2 (TÜV). ',
+		img: '/mezcla-explosiva.png',
+		catalogo:
+			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-rosemount-935-detector-de-gas-combustible-de-ruta-abierta-es-es-7773316.pdf',
+		categoria: 'Detectores de gases y de llama',
+		prov: 'emerson',
+		id: 10,
+	},
+	{
+		nombre: 'Detectores de llama',
+		descripcion:
+			'Los detectores de llama actuales utilizan tecnologías ópticas para su detección. Una llama emite radiación electromagnética en las longitudes de onda infrarroja (IR), de luz visible y ultravioleta (UV), según la fuente de combustible. Debido a esto, se han desarrollado tecnologías ópticas de detección de llamas con UV, UV/IR e infrarrojo multiespectro. Estos productos se basan en la detección de la radiación emitida en las bandas del espectro correspondientes y determinar así si una llama es real. Con las llamas de hidrocarburos, una combinación de metano y oxígeno produce dióxido de carbono y agua. Este tipo de fuego crea una lectura de señal UV a 0,2 y una lectura de señal infrarroja a 2,7 y 4,5 micrones. Las llamas de hidrógeno solo producen moléculas de agua, por lo que no se visualiza el mismo pico de CO2 que el producido por una llama de hidrocarburo. Rosemount dispone para cada tipo de llama un tipo de sensor: Detector de llamas infrarrojo multiespectro Rosemount 975MR,  Detector de llamas para hidrógeno infrarrojo multiespectro Rosemount 975HR,  Detector de llamas infrarrojo, ultravioleta y ultrarrápido Rosemount 975UF,  Detector de llamas infrarrojo y ultravioleta Rosemount 975UR',
+		img: '/detector-llama.png',
+		catalogo:
+			'https://www.emerson.com/documents/automation/hoja-de-datos-del-producto-rosemount%C2%A0975mr-detector-de-llamas-infrarrojo-multiespectro-es-8018988.pdf',
+		categoria: 'Detectores de gases y de llama',
+		prov: 'emerson',
+		id: 11,
+	},
 ];
