@@ -20,7 +20,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="p-2 fixed w-full h-20 bg-slate-700 flex items-center justify-between text-white">
+			<header className="p-2 fixed w-full h-20 bg-slate-700 flex items-center justify-between text-white z-10">
 				<nav className="flex container mx-auto  items-center justify-between flex-1">
 					<NavLink to="/">
 						<img
