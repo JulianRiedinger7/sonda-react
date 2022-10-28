@@ -8,6 +8,7 @@ import Inicio from '../containers/Inicio';
 import Productos from '../containers/Productos';
 import Somos from '../containers/Somos';
 import ProductosProveedor from '../components/ProductosProveedor';
+import Capacitaciones from '../containers/Capacitaciones';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/productos/:prov" element={<ProductosProveedor />} />
 					<Route path="/detalle/:itemId" element={<DetalleProducto />} />
 					<Route path="/somos" element={<Somos />} />
+					<Route path="/cursos-y-capacitaciones" element={<Capacitaciones />} />
 				</Routes>
 				<Footer />
 			</ProductsContextProvider>

@@ -4,8 +4,8 @@
 
 
 .sonda{
-  background: rgb(224,224,224);
-background: linear-gradient(90deg, rgba(224,224,224,1) 0%, rgba(112,135,184,1) 0%, rgba(4,69,105,1) 62%);
+  background: rgb(112,135,184);
+background: linear-gradient(45deg, rgba(112,135,184,1) 0%, rgba(4,69,105,1) 62%);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;

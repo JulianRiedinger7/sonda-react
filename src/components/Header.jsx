@@ -7,7 +7,7 @@ const sections = [
 	{ name: 'Quienes somos', to: '/somos', id: 1 },
 	{ name: 'Productos', to: '/productos', id: 2 },
 	{ name: 'Servicios', to: '/somos', id: 3 },
-	{ name: 'Cursos y Capacitaciones', to: '/somos', id: 4 },
+	{ name: 'Cursos y Capacitaciones', to: '/cursos-y-capacitaciones', id: 4 },
 	{ name: 'Contacto', to: '/somos', id: 5 },
 ];
 
