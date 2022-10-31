@@ -12,7 +12,7 @@ const ProductosProveedor = () => {
 	const navigate = useNavigate();
 
 	return (
-		<main className="min-h-[calc(100vh-80px)] bg-gray-400 pt-24">
+		<main className="min-h-[calc(100vh-80px)] bg-gray-300 pt-24">
 			<BsFillArrowLeftCircleFill
 				size={48}
 				className="cursor-pointer text-cyan-900 ml-5"

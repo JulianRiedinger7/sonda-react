@@ -23,7 +23,7 @@ const Footer = () => {
 
 					<div className="flex items-center space-x-2">
 						<BsFillTelephoneFill size={30} />
-						<span>(111) 111 111</span>
+						<span>011-20886247</span>
 					</div>
 				</div>
 			</div>

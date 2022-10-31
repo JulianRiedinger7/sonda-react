@@ -3,7 +3,7 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 
 const Capacitaciones = () => {
 	return (
-		<main className="py-24 bg-gray-400">
+		<main className="py-24 bg-gray-300">
 			<section className="min-h-[calc(100vh-80px)]">
 				<div className="mx-auto max-w-[43rem] px-4">
 					<div className="text-center">
@@ -14,7 +14,7 @@ const Capacitaciones = () => {
 							La formación continua y la educación constituyen un valor
 							inestimable
 						</h1>
-						<p className="mt-3 text-lg leading-relaxed text-slate-700">
+						<p className="mt-3 text-lg leading-relaxed text-black">
 							Con el fin de aportar mejores resultados, estar mejor preparados y
 							optimizar el tiempo <span className="font-bold">SONDA SRL </span>
 							brinda nuevas tecnologías y nuevas herramientas de trabajo.
@@ -61,7 +61,7 @@ const Capacitaciones = () => {
 								</svg>
 							</span>
 
-							<p className="text-slate-700 leading-7 lg:text-xl">
+							<p className="text-black leading-7 lg:text-xl">
 								La historia del mundo se cuenta en fases marcadas por desafíos,
 								aprendizajes y cambios. Las transformaciones reales y duraderas
 								del mundo nacen en estos momentos. Estas fases de la historia
@@ -88,7 +88,7 @@ const Capacitaciones = () => {
 								</svg>
 							</span>
 
-							<p className="text-slate-700 leading-7 lg:text-xl">
+							<p className="text-black leading-7 lg:text-xl">
 								Somos un grupo renovado, con líderes jóvenes y una nueva forma
 								de trabajar: lo que más nos inspira: mirar hacia el futuro. Por
 								eso nuestra modalidad a distancia se ha convertido en una
@@ -115,7 +115,7 @@ const Capacitaciones = () => {
 								</svg>
 							</span>
 
-							<p className="text-slate-700 leading-7 lg:text-xl">
+							<p className="text-black leading-7 lg:text-xl">
 								Ofrecemos una formación intensiva con profesores altamente
 								calificados. Una experiencia ampliamente enriquecedora con un
 								equipo que busca superarse constantemente. La proyección de
@@ -184,7 +184,7 @@ const Capacitaciones = () => {
 						In Company
 					</span>
 				</h2>
-				<p className="text-slate-700 text-lg text-center mb-5">
+				<p className="text-black text-lg text-center mb-5">
 					Siempre a la vanguardia de la necesidad del Cliente.
 				</p>
 
@@ -192,7 +192,7 @@ const Capacitaciones = () => {
 					<div className="p-8 space-y-3 border-2 border-cyan-500 rounded-xl">
 						<FaChalkboardTeacher size={30} color="#0891B2" />
 
-						<p className="text-slate-700 leading-7 lg:text-xl">
+						<p className="text-black leading-7 lg:text-xl">
 							Ofrecemos una formación intensiva con profesores altamente
 							calificados. Una experiencia ampliamente enriquecedora con un
 							equipo que busca superarse constantemente. La proyección de Sonda
@@ -205,7 +205,7 @@ const Capacitaciones = () => {
 					<div className="p-8 space-y-3 border-2 border-cyan-500  rounded-xl">
 						<AiOutlineTeam size={30} color="#0891B2" />
 
-						<p className="text-slate-700 leading-7 lg:text-xl">
+						<p className="text-black leading-7 lg:text-xl">
 							Nuestros entrenamientos in company están diseñados para
 							desarrollarse dentro de las instalaciones de su empresa, sobre los
 							mismos equipos que sus técnicos manejan a diario, garantizando una
@@ -223,7 +223,7 @@ const Capacitaciones = () => {
 							In Company
 						</span>
 					</p>
-					<p className="mt-4 max-w-2xl text-xl text-slate-700 lg:mx-auto">
+					<p className="mt-4 max-w-2xl text-xl text-black lg:mx-auto">
 						Nuestros programas de entrenamiento, están diseñados para facilitar
 						el aprendizaje haciendo hincapié en sus necesidades y dentro de las
 						instalaciones de su empresa.
@@ -255,7 +255,7 @@ const Capacitaciones = () => {
 									Entrenamientos Completos
 								</p>
 							</dt>
-							<dd className="mt-2 ml-16 text-base text-slate-700">
+							<dd className="mt-2 ml-16 text-base text-black">
 								Entrenamientos completos, agiles y didácticos, sin la necesidad
 								de salir del ámbito laboral y con horarios adecuados a sus
 								posibilidades.
@@ -285,7 +285,7 @@ const Capacitaciones = () => {
 									Adquisicion de conocimientos y habilidades
 								</p>
 							</dt>
-							<dd className="mt-2 ml-16 text-base text-slate-700">
+							<dd className="mt-2 ml-16 text-base text-black">
 								Facilitan la adquisición de conocimientos y habilidades para su
 								equipo de trabajo a fin de obtener un manejo óptimo de sus
 								equipos
@@ -315,7 +315,7 @@ const Capacitaciones = () => {
 									Adaptacion
 								</p>
 							</dt>
-							<dd className="mt-2 ml-16 text-base text-slate-700">
+							<dd className="mt-2 ml-16 text-base text-black">
 								Adaptar nuestros programas a las necesidades específicas de su
 								empresa
 							</dd>
@@ -344,7 +344,7 @@ const Capacitaciones = () => {
 									Competencia
 								</p>
 							</dt>
-							<dd className="mt-2 ml-16 text-base text-slate-700">
+							<dd className="mt-2 ml-16 text-base text-black">
 								Facilitan la competencia de su equipo de trabajo.
 							</dd>
 						</div>
