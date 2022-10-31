@@ -4,7 +4,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
 	return (
-		<footer className="p-2 h-20 bg-slate-700 flex items-center  text-white">
+		<footer className="p-2 h-20 bg-slate-700 flex items-center  text-white font-medium">
 			<div className="flex flex-col space-y-2 lg:flex-row items-center justify-between container mx-auto">
 				<div className="flex items-center space-x-2">
 					<ImLocation2 size={30} />
