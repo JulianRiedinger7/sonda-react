@@ -13,18 +13,18 @@ const Inicio = () => {
 					<img
 						src="/emerson.png"
 						alt="Emerson"
-						className="w-64 aspect-square lg:w-72 mx-auto object-contain lg:bg-white lg:bg-opacity-80 lg:rounded-xl lg:shadow-md lg:px-4"
+						className="w-64 aspect-square lg:w-72 mx-auto object-contain bg-white bg-opacity-80 rounded-xl shadow-md px-2 lg:px-4"
 					/>
 				</div>
 
-				<div className="space-y-5 lg:space-y-0 lg:pt-5 ">
+				<div className="space-y-5 lg:space-y-0 lg:pt-5 pb-10 lg:pb-0">
 					<h2 className="text-xl text-center lg:text-2xl font-bold sponsors lg:pb-2">
 						Distribuidor oficial en la Republica Argentina de:
 					</h2>
 					<img
 						src="/fitok.png"
 						alt="Fitok"
-						className="w-64 aspect-square lg:w-72 mx-auto object-contain lg:bg-white lg:rounded-xl lg:bg-opacity-60 lg:shadow-md lg:px-4"
+						className="w-64 aspect-square lg:w-72 mx-auto object-contain bg-white rounded-xl bg-opacity-80 lg:bg-opacity-60 shadow-md px-2 lg:px-4"
 					/>
 				</div>
 			</section>
