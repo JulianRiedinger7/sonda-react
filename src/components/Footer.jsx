@@ -2,16 +2,17 @@ import { ImLocation2 } from 'react-icons/im';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 
-const Footer = () => {
+const Footer = ({ children }) => {
 	return (
-		<footer className="p-2 h-20 bg-slate-700 flex items-center  text-white font-medium">
+		<footer className="p-2 min-h-20 bg-slate-700 flex items-center  text-white font-medium">
 			<div className="flex flex-col space-y-2 lg:flex-row items-center justify-between container mx-auto">
-				<div className="flex items-center space-x-2">
+				<div className="flex items-center space-x-2 pb-2 lg:pb-0">
 					<ImLocation2 size={30} />
 					<span>Calle 23 # 2044, La Plata, Buenos Aires, Argentina</span>
 				</div>
 
-				<div className="flex justify-center space-x-20">
+				{children}
+				<div className="flex justify-center space-x-20 pt-2 lg:pt-0">
 					<a
 						href="https://www.linkedin.com/company/sonda-srl/"
 						target="_BLANK"

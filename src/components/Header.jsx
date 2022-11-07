@@ -8,7 +8,7 @@ const sections = [
 	{ name: 'Productos', to: '/productos', id: 2 },
 	{ name: 'Servicios', to: '/somos', id: 3 },
 	{ name: 'Cursos y Capacitaciones', to: '/cursos-y-capacitaciones', id: 4 },
-	{ name: 'Contacto', to: '/somos', id: 5 },
+	{ name: 'Contacto', to: '/contacto', id: 5 },
 ];
 
 const Header = () => {

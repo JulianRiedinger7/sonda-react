@@ -9,6 +9,7 @@ import Productos from '../containers/Productos';
 import Somos from '../containers/Somos';
 import ProductosProveedor from '../components/ProductosProveedor';
 import Capacitaciones from '../containers/Capacitaciones';
+import Contacto from '../containers/Contacto';
 
 function App() {
 	return (
@@ -23,8 +24,8 @@ function App() {
 					<Route path="/detalle/:itemId" element={<DetalleProducto />} />
 					<Route path="/somos" element={<Somos />} />
 					<Route path="/cursos-y-capacitaciones" element={<Capacitaciones />} />
+					<Route path="/contacto" element={<Contacto />} />
 				</Routes>
-				<Footer />
 			</ProductsContextProvider>
 		</BrowserRouter>
 	);
