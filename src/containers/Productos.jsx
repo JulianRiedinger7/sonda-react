@@ -43,16 +43,7 @@ const Productos = () => {
 					</div>
 				</div>
 			</main>
-			<Footer>
-				<a
-					href="mailto:julianriedinger27@gmail.com"
-					target="_BLANK"
-					className="flex items-center space-x-2"
-				>
-					<MdEmail size={30} />
-					<span>sonda@gmail.com</span>
-				</a>
-			</Footer>
+			<Footer />
 		</>
 	);
 };

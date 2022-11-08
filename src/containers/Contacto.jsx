@@ -4,47 +4,39 @@ import Footer from '../components/Footer';
 const Contacto = () => {
 	return (
 		<>
-			<main className="min-h-[calc(100vh-80px)] pt-24 bg-gray-300 flex flex-col lg:flex-row justify-center">
+			<main className="min-h-[calc(100vh-80px)] py-24 bg-gray-300 flex flex-col xl:flex-row justify-center">
 				<div className="px-4 lg:px-20 mb-10">
 					<h1 className="text-6xl text-center lg:text-left text-white py-10 text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
 						Contacto
 					</h1>
 
 					<div>
-						<h2 className="text-lg font-medium">
+						<h2 className="text-lg font-bold md:leading-[4rem] tracking-tight mb-5 lg:mb-0">
 							Puede enviar su consulta en los siguientes mails respectivos!
 						</h2>
 
-						<a
-							href="mailto:julianriedinger27@gmail.com"
-							target="_BLANK"
-							className="flex w-fit items-center space-x-2 hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
-						>
-							<MdEmail size={30} />
-							<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
-								Ventas
-							</span>
-						</a>
-						<a
-							href="mailto:julianriedinger27@gmail.com"
-							target="_BLANK"
-							className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
-						>
-							<MdEmail size={30} />
-							<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
-								Capacitaciones
-							</span>
-						</a>
-						<a
-							href="mailto:julianriedinger27@gmail.com"
-							target="_BLANK"
-							className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
-						>
-							<MdEmail size={30} />
-							<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
-								Servicios
-							</span>
-						</a>
+						<div className="flex flex-col lg:flex-row lg:gap-10">
+							<a
+								href="mailto:rociomenu@sondasrl.com.ar"
+								target="_BLANK"
+								className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
+							>
+								<MdEmail size={30} />
+								<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
+									Capacitaciones
+								</span>
+							</a>
+							<a
+								href="mailto:federicobenitez@sondasrl.com.ar"
+								target="_BLANK"
+								className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
+							>
+								<MdEmail size={30} />
+								<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
+									Servicios
+								</span>
+							</a>
+						</div>
 					</div>
 				</div>
 
@@ -54,19 +46,10 @@ const Contacto = () => {
 					allowFullScreen=""
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"
-					className="mx-auto w-[300px] h-[200px] lg:w-[600px] lg:h-[400px] rounded-lg shadow-xl mb-20 lg:mb-0"
+					className="mx-auto w-[300px] h-[200px] sm:w-[500px] sm:h-[400px] lg:w-[700px] xl:w-[550px] rounded-lg shadow-xl mb-20 lg:mb-0"
 				></iframe>
 			</main>
-			<Footer>
-				<a
-					href="mailto:julianriedinger27@gmail.com"
-					target="_BLANK"
-					className="flex items-center space-x-2"
-				>
-					<MdEmail size={30} />
-					<span>sonda@gmail.com</span>
-				</a>
-			</Footer>
+			<Footer />
 		</>
 	);
 };

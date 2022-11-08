@@ -362,12 +362,12 @@ const Capacitaciones = () => {
 			</main>
 			<Footer>
 				<a
-					href="mailto:julianriedinger27@gmail.com"
+					href="mailto:rociomenu@sondasrl.com.ar"
 					target="_BLANK"
 					className="flex items-center space-x-2"
 				>
 					<MdEmail size={30} />
-					<span>sonda@gmail.com</span>
+					<span>rociomenu@sondasrl.com.ar</span>
 				</a>
 			</Footer>
 		</>
