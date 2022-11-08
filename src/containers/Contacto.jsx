@@ -19,7 +19,7 @@ const Contacto = () => {
 							<a
 								href="mailto:rociomenu@sondasrl.com.ar"
 								target="_BLANK"
-								className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
+								className="flex items-center space-x-2 w-fit hover:underline decoration-cyan-500 transition-all ease-in-out"
 							>
 								<MdEmail size={30} />
 								<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
@@ -29,7 +29,7 @@ const Contacto = () => {
 							<a
 								href="mailto:federicobenitez@sondasrl.com.ar"
 								target="_BLANK"
-								className="flex items-center space-x-2 w-fit hover:border-b hover:border-b-cyan-300 transition-all ease-in-out"
+								className="flex items-center space-x-2 w-fit hover:underline decoration-cyan-500 transition-all ease-in-out"
 							>
 								<MdEmail size={30} />
 								<span className="text-white text-transparent bg-clip-text bg-gradient-to-t from-cyan-900 to-cyan-300 font-semibold">
