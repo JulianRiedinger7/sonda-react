@@ -15,7 +15,7 @@ const Contacto = () => {
 							Puede enviar su consulta en los siguientes mails respectivos!
 						</h2>
 
-						<div className="flex flex-col lg:flex-row lg:gap-10">
+						<div className="flex flex-row justify-around">
 							<a
 								href="mailto:rociomenu@sondasrl.com.ar"
 								target="_BLANK"
