@@ -46,7 +46,7 @@ const Contacto = () => {
 					allowFullScreen=""
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"
-					className="mx-auto w-[300px] h-[200px] sm:w-[500px] sm:h-[400px] lg:w-[700px] xl:w-[550px] rounded-lg shadow-xl mb-20 lg:mb-0"
+					className="mx-auto w-[320px] h-[250px] sm:w-[500px] sm:h-[400px] lg:w-[700px] xl:w-[550px] rounded-lg shadow-xl  lg:mb-0"
 				></iframe>
 			</main>
 			<Footer />
