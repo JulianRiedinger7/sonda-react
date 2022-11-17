@@ -4,11 +4,11 @@ const Inicio = () => {
 	return (
 		<>
 			<main className="min-h-[calc(100vh-80px)] bg-hero-pattern bg-no-repeat bg-cover bg-center hero pt-24">
-				<h1 className="text-center text-6xl lg:text-8xl pt-20 font-bold text-cyan-700 sonda">
+				<h1 className="text-center text-6xl lg:text-8xl pt-5 font-bold text-cyan-700 sonda">
 					SONDA SRL
 				</h1>
 
-				<section className="text-white mt-20 container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10 lg:space-y-0">
+				<section className="text-white mt-20  container mx-auto flex flex-col lg:flex-row lg:justify-between items-center space-y-10 lg:space-y-0">
 					<div className="space-y-5 lg:space-y-0 lg:pt-5 ">
 						<h2 className="text-xl lg:text-2xl font-bold sponsors lg:pb-2">
 							Representantes oficiales de:
