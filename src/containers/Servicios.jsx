@@ -142,12 +142,12 @@ const Servicios = () => {
 			</main>
 			<Footer>
 				<a
-					href="mailto:federicobenitez@sondasrl.com.ar"
+					href="mailto:juandisanto@sondasrl.com.ar"
 					target="_BLANK"
 					className="flex items-center space-x-2"
 				>
 					<MdEmail size={30} />
-					<span>federicobenitez@sondasrl.com.ar</span>
+					<span>juandisanto@sondasrl.com.ar</span>
 				</a>
 			</Footer>
 		</>
