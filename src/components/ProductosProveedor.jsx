@@ -3,14 +3,20 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 import Producto from './Producto';
 import Footer from './Footer';
+import { useEffect, useState } from 'react';
 
 const ProductosProveedor = () => {
+	const [productsToShow, setProductsToShow] = useState([]);
 	const { products } = useProductsContext();
 	const { prov } = useParams();
 
-	const productsToShow = products.filter((product) => product.prov === prov);
+	useEffect(() => {
+		setProductsToShow(products.filter((product) => product.prov === prov));
+	}, [products]);
 
 	const navigate = useNavigate();
+
+	console.log(productsToShow);
 
 	return (
 		<>
@@ -26,9 +32,13 @@ const ProductosProveedor = () => {
 					className="mx-auto"
 				/>
 				<div className="flex flex-wrap gap-20 container mx-auto justify-center py-10">
-					{productsToShow.map((producto) => (
-						<Producto key={producto.id} {...producto} />
-					))}
+					{productsToShow.length > 0 ? (
+						productsToShow.map((producto) => (
+							<Producto key={producto.id} {...producto} />
+						))
+					) : (
+						<h2 className="text-3xl text-black">En desarrollo...</h2>
+					)}
 				</div>
 			</main>
 			<Footer />
