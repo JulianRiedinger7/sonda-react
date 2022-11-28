@@ -1,5 +1,6 @@
 {
-  "name": "sonda-react",
+  "name": "sonda-srl",
+  "homepage": "https://sondasrl.com.ar/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
