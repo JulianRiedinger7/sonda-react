@@ -27,7 +27,7 @@ const Contacto = () => {
 								</span>
 							</a>
 							<a
-								href="mailto:federicobenitez@sondasrl.com.ar"
+								href="mailto:juandisanto@sondasrl.com.ar"
 								target="_BLANK"
 								className="flex items-center space-x-1 w-fit hover:underline decoration-cyan-500 transition-all ease-in-out"
 							>
