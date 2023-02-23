@@ -1,15 +1,20 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ProductsContextProvider } from '../context/ProductsContext';
-import DetalleProducto from '../components/DetalleProducto';
-import Header from '../components/Header';
-import ScrollToTop from '../components/ScrollToTop';
-import Inicio from '../containers/Inicio';
-import Productos from '../containers/Productos';
-import Somos from '../containers/Somos';
-import ProductosProveedor from '../components/ProductosProveedor';
-import Capacitaciones from '../containers/Capacitaciones';
-import Contacto from '../containers/Contacto';
-import Servicios from '../containers/Servicios';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {
+	DetalleProducto,
+	Header,
+	ProductosProveedor,
+	ScrollToTop,
+} from '../components'
+import {
+	Admin,
+	Capacitaciones,
+	Contacto,
+	Inicio,
+	Productos,
+	Servicios,
+	Somos,
+} from '../containers'
+import { ProductsContextProvider } from '../context/ProductsContext'
 
 function App() {
 	return (
@@ -26,10 +31,11 @@ function App() {
 					<Route path="/servicios" element={<Servicios />} />
 					<Route path="/cursos-y-capacitaciones" element={<Capacitaciones />} />
 					<Route path="/contacto" element={<Contacto />} />
+					<Route path="/admin" element={<Admin />} />
 				</Routes>
 			</ProductsContextProvider>
 		</BrowserRouter>
-	);
+	)
 }
 
-export default App;
+export default App
